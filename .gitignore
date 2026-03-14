@@ -1,0 +1,20 @@
+# Dependencies
+venv/
+__pycache__/
+*.pyc
+
+# Custom model (768MB - too large for git, uses pre-trained fallback on server)
+sentiment_model/
+
+# Environment
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
